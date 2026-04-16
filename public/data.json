@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://i.ibb.co.com/1YB4zmh5/Ellipse-1.png",
+    "email": "davidkim@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in college. Loves traveling and football.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://i.ibb.co.com/8DS0sGhK/Ellipse-1-1.png",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["office", "teammate"],
+    "bio": "Work colleague. Great at UI design.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.ibb.co.com/yF2J5HNj/Ellipse-1-2.png",
+    "email": "tanvir.ahmed@gmail.com",
+    "days_since_contact": 5,
+    "status": "on track",
+    "tags": ["school", "best friend"],
+    "bio": "School friend. Enjoys cricket and gaming.",
+    "goal": 15,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://i.ibb.co.com/cccmk92j/Ellipse-1-3.png",
+    "email": "mim.akter@gmail.com",
+    "days_since_contact": 2,
+    "status": "on track",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin. Loves cooking and blogging.",
+    "goal": 7,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "picture": "https://i.ibb.co.com/W4RdrLLj/Ellipse-1-4.png",
+    "email": "rakib.hasan@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["gym", "fitness buddy"],
+    "bio": "Gym partner. Motivates me to stay fit.",
+    "goal": 14,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 6,
+    "name": "Emma Wilson",
+    "picture": "https://i.ibb.co.com/FLYm0WbT/Ellipse-1-5.png",
+    "email": "sadia.islam@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["university", "friend"],
+    "bio": "University friend. Loves photography.",
+    "goal": 10,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.ibb.co.com/YnHVb9B/Ellipse-1-6.png",
+    "email": "mahin.chowdhury@gmail.com",
+    "days_since_contact": 6,
+    "status": "on track",
+    "tags": ["neighbor", "childhood"],
+    "bio": "Childhood neighbor. Plays guitar.",
+    "goal": 12,
+    "next_due_date": "2025-07-26"
+  },
+  {
+    "id": 8,
+    "name": "James Wright",
+    "picture": "https://i.ibb.co.com/WvRkbN0t/Ellipse-1-7.png",
+    "email": "farzana.rahman@gmail.com",
+    "days_since_contact": 17,
+    "status": "overdue",
+    "tags": ["office", "manager"],
+    "bio": "Former manager. Great mentor.",
+    "goal": 14,
+    "next_due_date": "2025-07-19"
+  }
+]
