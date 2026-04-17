@@ -1,9 +1,7 @@
-import useFriend from '@/app/hook/useFriend';
+
+import HandleButtonToogle from '@/components/Friends/HandleButtonToogle';
 import Image from 'next/image';
-import React from 'react';
-import { FiPhoneCall } from 'react-icons/fi';
-import { GrVideo } from 'react-icons/gr';
-import { IoMdText } from 'react-icons/io';
+import { FaPhoneVolume } from 'react-icons/fa';
 import { IoArchiveOutline } from 'react-icons/io5';
 import { PiBellSimpleZThin } from 'react-icons/pi';
 import { RiDeleteBin6Line } from 'react-icons/ri';
@@ -21,6 +19,9 @@ const FriendsDetailPage = async ({ params }) => {
 
     const { id } = await params;
     const friend = friends.find(friend => friend.id == id);
+
+    
+
 
 
     return (
@@ -82,15 +83,7 @@ const FriendsDetailPage = async ({ params }) => {
                         <div className='bg-white py-5 px-3 rounded-sm shadow-sm mt-3'>
                             <h2 className='text-[#244D3F] text-[20px] font-medium'>Quick Check-In</h2>
                             <div className='md:flex items-center justify-center gap-3 mt-3 space-y-3'>
-                                <div className='text-[#F8FAFC] cursor-pointer py-3 px-16 rounded-sm shadow-sm space-y text-center'>
-                                    <button className='text-[#1F2937] cursor-pointer text-xl'><FiPhoneCall /> Call</button>
-                                </div>
-                                <div className='text-[#F8FAFC] cursor-pointer py-3 px-16 rounded-sm shadow-sm space-y text-center'>
-                                    <button className='text-[#1F2937] cursor-pointer text-xl'><IoMdText /> Text</button>
-                                </div>
-                                <div className='text-[#F8FAFC] cursor-pointer py-3 px-16 rounded-sm shadow-sm space-y text-center'>
-                                    <button className='text-[#1F2937] cursor-pointer text-xl'><GrVideo /> Call</button>
-                                </div>
+                                <HandleButtonToogle friend={friend}></HandleButtonToogle>
                             </div>
                         </div>
                     </div>
