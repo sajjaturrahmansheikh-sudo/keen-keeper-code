@@ -7,7 +7,9 @@ import { PiBellSimpleZThin } from 'react-icons/pi';
 import { RiDeleteBin6Line } from 'react-icons/ri';
 
 const friendPromise = async function () {
-    const res = await fetch("http://localhost:3000/data.json")
+    const res = await fetch("https://keen-keeper-seven-mu.vercel.app/data.json",{
+        cache: "no-store"
+    })
     const data = await res.json();
     return data;
 }
