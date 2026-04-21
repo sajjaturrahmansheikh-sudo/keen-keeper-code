@@ -7,3 +7,13 @@
                        •React.js
                        •Tailwind Css
                        •DaisyUi
+
+    Key Features: 
+    1. Friend Management System
+        Easily add, view, and manage your friends with detailed profiles and relationship tags.
+
+    2. Interaction Timeline
+        Track all interactions (call, text, video) in a structured timeline to monitor your communication history.
+
+    3. Smart Relationship Status
+        Automatically analyzes interaction frequency and shows statuses like On Track, Almost Due, and Overdue to help you stay connected.
